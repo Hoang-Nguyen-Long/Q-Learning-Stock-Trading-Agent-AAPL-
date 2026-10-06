@@ -6,14 +6,6 @@
 
 A tabular **Q-learning** agent that learns when to buy, sell or hold Apple (AAPL) stock from two technical indicators, RSI and a moving-average ratio. The agent is trained on 2015–2021 prices and tested on unseen 2021–2022 prices against a simple buy-and-hold investor.
 
-The short version: **the agent lost 9.6% on the test period while buy-and-hold gained 4.8%.** This README explains why, because the reasons are more interesting than the headline.
-
-> Group coursework (Group Gochugaru, Thread 1: Reinforcement Learning) for **COMM075 Machine Learning for Data Science**, University of Surrey.
-
-<p align="center">
-  <img src="assets/results.png" width="90%" alt="Test portfolio, training curves and Q-table heatmap">
-</p>
-
 ---
 
 ## Results
@@ -143,7 +135,4 @@ python evaluate.py
 
 ---
 
-## Authors
 
-Group Gochugaru, COMM075 Machine Learning for Data Science, University of Surrey:
-Lubaba, Kim, Anas, Long, Rahin, Safayet.
